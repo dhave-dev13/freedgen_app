@@ -14,6 +14,7 @@
 		A327AD982B44F3240023050B /* freedgen_app_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327AD972B44F3240023050B /* freedgen_app_iosTests.swift */; };
 		A327ADA22B44F3240023050B /* freedgen_app_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327ADA12B44F3240023050B /* freedgen_app_iosUITests.swift */; };
 		A327ADA42B44F3240023050B /* freedgen_app_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327ADA32B44F3240023050B /* freedgen_app_iosUITestsLaunchTests.swift */; };
+		A370B3402B4708A50043BC4C /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = A370B33F2B4708A50043BC4C /* Inject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A370B3402B4708A50043BC4C /* Inject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = freedgen_app_ios;
+			packageProductDependencies = (
+				A370B33F2B4708A50043BC4C /* Inject */,
+			);
 			productName = freedgen_app_ios;
 			productReference = A327AD832B44F3200023050B /* freedgen_app_ios.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = A327AD7A2B44F3200023050B;
+			packageReferences = (
+				A370B33E2B4708A50043BC4C /* XCRemoteSwiftPackageReference "Inject" */,
+			);
 			productRefGroup = A327AD842B44F3200023050B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -434,6 +442,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "\"-Xlinker -interposable\"";
 				PRODUCT_BUNDLE_IDENTIFIER = "dev13.freedgen-app-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -582,6 +591,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A370B33E2B4708A50043BC4C /* XCRemoteSwiftPackageReference "Inject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzysztofzablocki/Inject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A370B33F2B4708A50043BC4C /* Inject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A370B33E2B4708A50043BC4C /* XCRemoteSwiftPackageReference "Inject" */;
+			productName = Inject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A327AD7B2B44F3200023050B /* Project object */;
 }
