@@ -16,26 +16,28 @@ struct ContentView: View {
             Image("ImageAssets")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .frame(height: 250, alignment: .center)
+                .frame(height: 300, alignment: .center)
             
-            Text("LOGIN")
-                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                .padding(.top, 6)
-                .padding(.leading, 16)
             
-            TextField("Username", text: $username)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
-                .padding([.leading, .trailing], 16)
-                .padding(.top, 8)
+                Text("LOGIN")
+                    .font(.system(size: 32, weight: .medium, design: .default))
+                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                    .padding(.top, 16)
+                    .padding(.trailing, 260)
             
-            SecureField("Password", text: $password)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
-                .padding([.leading, .trailing], 16)
-                .padding(.top, 8)
-
-            Text("Forgot Password?")
-                .font(.body)    
+            
+            
+                TextField("Username", text: $username, prompt: Text("This field is required").font(.system(size: 12)))
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .padding([.leading, .trailing], 16)
+                    .padding(.top, 16)
+                
+            SecureField("Password", text: $password, prompt: Text("This field is required").font(.system(size: 12, weight: .bold, design: .default)))
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .padding([.leading, .trailing], 16)
+                    .padding(.top, 10)
+            
+            
             
             Button(action: {
                             // Add your login logic here
@@ -49,6 +51,10 @@ struct ContentView: View {
                          .padding([.leading, .trailing], 16)
                          .padding(.top, 16)
                         }
+            Text("Forgot Password?")
+                .font(.body)
+                .padding(.top, 10)
+            
             Spacer()
         }
     }
