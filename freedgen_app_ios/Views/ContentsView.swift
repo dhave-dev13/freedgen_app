@@ -11,27 +11,22 @@ struct ContentsView: View {
     @State var selectedTab:BottomBarSelectedTab = .home
     var body: some View {
         VStack {
-                if selectedTab == .home{
+                if selectedTab == .home {
                     HomePageView()
                 }
                 
-                if selectedTab == .lessons{
-                    Text("Lessons")
+                if selectedTab == .lessons {
+                    LessonsPageView()
                 }
                 
-                if selectedTab == .settings{
-                    Text("Settings")
+                if selectedTab == .settings {
+                    SettingsPageView()
                 }
             
                 Spacer()
             
                 BottomNavigationBar(selectedTab: $selectedTab)
-        
             
         }
     }
-}
-
-#Preview {
-    ContentsView()
 }

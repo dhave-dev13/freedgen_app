@@ -1,18 +1,15 @@
 //
-//  HomePageView.swift
+//  LessonsPageView.swift
 //  freedgen_app_ios
 //
-//  Created by Dhave Barsalote on 1/11/24.
+//  Created by Dhave Barsalote on 1/12/24.
 //
 
 import SwiftUI
 
-struct HomePageView: View {
-    
-    @State var selectedTab:BottomBarSelectedTab = .home
+struct LessonsPageView: View {
     
     let modules = ModuleData.modules
-    
     
     var body: some View {
         ZStack {
@@ -20,11 +17,11 @@ struct HomePageView: View {
             
             VStack {
                 
-                AppBarView(appBarTitle: "Welcome")
+                AppBarView(appBarTitle: "Lessons")
                 
                 CurrentDateView()
                 
-                ForEach (modules.filter {$0.favorites} ) { module in
+                ForEach (modules.filter {$0.moduleType == "lessons"} ) { module in
                     CardModulesView(moduleIcon: module.moduleIcon, moduleTitle: module.moduleName, moduleDescription: module.moduleSubtitle)
                 }
                 
@@ -33,5 +30,8 @@ struct HomePageView: View {
             }
         }
     }
-    
+}
+
+#Preview {
+    LessonsPageView()
 }
