@@ -11,7 +11,7 @@ import SwiftUI
 struct freedgen_app_iosApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginPageView()
         }
     }
 }

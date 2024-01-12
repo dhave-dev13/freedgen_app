@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		A327AD872B44F3200023050B /* freedgen_app_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327AD862B44F3200023050B /* freedgen_app_iosApp.swift */; };
-		A327AD892B44F3200023050B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327AD882B44F3200023050B /* ContentView.swift */; };
+		A327AD892B44F3200023050B /* LoginPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327AD882B44F3200023050B /* LoginPageView.swift */; };
 		A327AD8B2B44F3230023050B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A327AD8A2B44F3230023050B /* Assets.xcassets */; };
 		A327AD8E2B44F3230023050B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A327AD8D2B44F3230023050B /* Preview Assets.xcassets */; };
-		A327AD982B44F3240023050B /* freedgen_app_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327AD972B44F3240023050B /* freedgen_app_iosTests.swift */; };
-		A327ADA22B44F3240023050B /* freedgen_app_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327ADA12B44F3240023050B /* freedgen_app_iosUITests.swift */; };
-		A327ADA42B44F3240023050B /* freedgen_app_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327ADA32B44F3240023050B /* freedgen_app_iosUITestsLaunchTests.swift */; };
-		A370B3402B4708A50043BC4C /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = A370B33F2B4708A50043BC4C /* Inject */; };
+		A375D95B2B50D5BF0079CF5B /* BottomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A375D95A2B50D5BF0079CF5B /* BottomNavigationBar.swift */; };
+		A375D95D2B50D9530079CF5B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A375D95C2B50D9530079CF5B /* Constants.swift */; };
+		A375D95F2B50D9EC0079CF5B /* ContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A375D95E2B50D9EC0079CF5B /* ContentsView.swift */; };
+		A386C7D32B4F613900E7CD9E /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A386C7D22B4F613900E7CD9E /* HomePageView.swift */; };
+		A386C7D62B4F719F00E7CD9E /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A386C7D52B4F719F00E7CD9E /* Helpers.swift */; };
+		A386C7D92B4FC98F00E7CD9E /* CurrentDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A386C7D82B4FC98F00E7CD9E /* CurrentDateView.swift */; };
+		A386C7DB2B4FCCAC00E7CD9E /* CardModulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A386C7DA2B4FCCAC00E7CD9E /* CardModulesView.swift */; };
+		A386C7DD2B4FCD3800E7CD9E /* ModuleDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A386C7DC2B4FCD3800E7CD9E /* ModuleDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,14 +41,19 @@
 /* Begin PBXFileReference section */
 		A327AD832B44F3200023050B /* freedgen_app_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = freedgen_app_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A327AD862B44F3200023050B /* freedgen_app_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freedgen_app_iosApp.swift; sourceTree = "<group>"; };
-		A327AD882B44F3200023050B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A327AD882B44F3200023050B /* LoginPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageView.swift; sourceTree = "<group>"; };
 		A327AD8A2B44F3230023050B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A327AD8D2B44F3230023050B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A327AD932B44F3240023050B /* freedgen_app_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = freedgen_app_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A327AD972B44F3240023050B /* freedgen_app_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freedgen_app_iosTests.swift; sourceTree = "<group>"; };
 		A327AD9D2B44F3240023050B /* freedgen_app_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = freedgen_app_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A327ADA12B44F3240023050B /* freedgen_app_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freedgen_app_iosUITests.swift; sourceTree = "<group>"; };
-		A327ADA32B44F3240023050B /* freedgen_app_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freedgen_app_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A375D95A2B50D5BF0079CF5B /* BottomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationBar.swift; sourceTree = "<group>"; };
+		A375D95C2B50D9530079CF5B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A375D95E2B50D9EC0079CF5B /* ContentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsView.swift; sourceTree = "<group>"; };
+		A386C7D22B4F613900E7CD9E /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		A386C7D52B4F719F00E7CD9E /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		A386C7D82B4FC98F00E7CD9E /* CurrentDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDateView.swift; sourceTree = "<group>"; };
+		A386C7DA2B4FCCAC00E7CD9E /* CardModulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModulesView.swift; sourceTree = "<group>"; };
+		A386C7DC2B4FCD3800E7CD9E /* ModuleDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +61,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A370B3402B4708A50043BC4C /* Inject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,8 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				A327AD852B44F3200023050B /* freedgen_app_ios */,
-				A327AD962B44F3240023050B /* freedgen_app_iosTests */,
-				A327ADA02B44F3240023050B /* freedgen_app_iosUITests */,
 				A327AD842B44F3200023050B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,8 +102,12 @@
 		A327AD852B44F3200023050B /* freedgen_app_ios */ = {
 			isa = PBXGroup;
 			children = (
+				A386C7D72B4FC96300E7CD9E /* GlobalWidgets */,
+				A386C7D42B4F718F00E7CD9E /* Helpers */,
+				A386C7CF2B4F60EA00E7CD9E /* Models */,
+				A386C7CE2B4F60DC00E7CD9E /* Views */,
 				A327AD862B44F3200023050B /* freedgen_app_iosApp.swift */,
-				A327AD882B44F3200023050B /* ContentView.swift */,
+				A327AD882B44F3200023050B /* LoginPageView.swift */,
 				A327AD8A2B44F3230023050B /* Assets.xcassets */,
 				A327AD8C2B44F3230023050B /* Preview Content */,
 			);
@@ -112,21 +122,40 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A327AD962B44F3240023050B /* freedgen_app_iosTests */ = {
+		A386C7CE2B4F60DC00E7CD9E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A327AD972B44F3240023050B /* freedgen_app_iosTests.swift */,
+				A386C7D22B4F613900E7CD9E /* HomePageView.swift */,
+				A375D95E2B50D9EC0079CF5B /* ContentsView.swift */,
 			);
-			path = freedgen_app_iosTests;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		A327ADA02B44F3240023050B /* freedgen_app_iosUITests */ = {
+		A386C7CF2B4F60EA00E7CD9E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A327ADA12B44F3240023050B /* freedgen_app_iosUITests.swift */,
-				A327ADA32B44F3240023050B /* freedgen_app_iosUITestsLaunchTests.swift */,
+				A386C7DC2B4FCD3800E7CD9E /* ModuleDetails.swift */,
 			);
-			path = freedgen_app_iosUITests;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A386C7D42B4F718F00E7CD9E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A386C7D52B4F719F00E7CD9E /* Helpers.swift */,
+				A375D95C2B50D9530079CF5B /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A386C7D72B4FC96300E7CD9E /* GlobalWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				A386C7D82B4FC98F00E7CD9E /* CurrentDateView.swift */,
+				A386C7DA2B4FCCAC00E7CD9E /* CardModulesView.swift */,
+				A375D95A2B50D5BF0079CF5B /* BottomNavigationBar.swift */,
+			);
+			path = GlobalWidgets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +175,6 @@
 			);
 			name = freedgen_app_ios;
 			packageProductDependencies = (
-				A370B33F2B4708A50043BC4C /* Inject */,
 			);
 			productName = freedgen_app_ios;
 			productReference = A327AD832B44F3200023050B /* freedgen_app_ios.app */;
@@ -221,7 +249,6 @@
 			);
 			mainGroup = A327AD7A2B44F3200023050B;
 			packageReferences = (
-				A370B33E2B4708A50043BC4C /* XCRemoteSwiftPackageReference "Inject" */,
 			);
 			productRefGroup = A327AD842B44F3200023050B /* Products */;
 			projectDirPath = "";
@@ -265,8 +292,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A327AD892B44F3200023050B /* ContentView.swift in Sources */,
+				A386C7D92B4FC98F00E7CD9E /* CurrentDateView.swift in Sources */,
+				A386C7DD2B4FCD3800E7CD9E /* ModuleDetails.swift in Sources */,
+				A375D95F2B50D9EC0079CF5B /* ContentsView.swift in Sources */,
+				A327AD892B44F3200023050B /* LoginPageView.swift in Sources */,
+				A386C7D32B4F613900E7CD9E /* HomePageView.swift in Sources */,
 				A327AD872B44F3200023050B /* freedgen_app_iosApp.swift in Sources */,
+				A386C7DB2B4FCCAC00E7CD9E /* CardModulesView.swift in Sources */,
+				A375D95B2B50D5BF0079CF5B /* BottomNavigationBar.swift in Sources */,
+				A386C7D62B4F719F00E7CD9E /* Helpers.swift in Sources */,
+				A375D95D2B50D9530079CF5B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +309,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A327AD982B44F3240023050B /* freedgen_app_iosTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +316,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A327ADA42B44F3240023050B /* freedgen_app_iosUITestsLaunchTests.swift in Sources */,
-				A327ADA22B44F3240023050B /* freedgen_app_iosUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,25 +623,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		A370B33E2B4708A50043BC4C /* XCRemoteSwiftPackageReference "Inject" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/krzysztofzablocki/Inject.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.2.4;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		A370B33F2B4708A50043BC4C /* Inject */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A370B33E2B4708A50043BC4C /* XCRemoteSwiftPackageReference "Inject" */;
-			productName = Inject;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A327AD7B2B44F3200023050B /* Project object */;
 }
