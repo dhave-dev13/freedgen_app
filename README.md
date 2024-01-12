@@ -33,5 +33,7 @@ Learnings:
   * datatype - defining variables data type in swift is via colon(:) i.e. var title: String
   * Image - you can use either svg, png, jpg just upload in assets folder
   * Icons - Inside Image but when using SF Symbols, should be Image(.SystemName("sun.fill"))
+  * functions
+  * refactor
  
   
