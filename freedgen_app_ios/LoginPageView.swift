@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct LoginPageView: View {
-    @State private var username: String = ""
-    @State private var password: String = ""
+    @State private var username: String = "admin"
+    @State private var password: String = "admin"
     @State private var rememberMe: Bool = false
     @State private var isValid: Bool = false
     @ObservedObject var textValidator = TextValidator()
@@ -49,7 +49,7 @@ struct LoginPageView: View {
                         Text("Remember Me")
                     }
                     .padding([.trailing, .leading], 16)
-                    .padding(.bottom, 10)
+                    .padding(.bottom, 20)
                     
                     
                 }
@@ -65,18 +65,18 @@ struct LoginPageView: View {
                     
                 })
                 
-                Button(action: {
-                    // Add your login logic here
-                }) {
-                    Text("Register")
-                        .foregroundColor(.white)
-                        .padding()
-                        .frame(maxWidth: .infinity)
-                        .background(Color("signupButton"))
-                        .cornerRadius(5)
-                        .padding([.leading, .trailing], 16)
-                        .padding(.top, 5)
-                }
+//                Button(action: {
+//                    // Add your login logic here
+//                }) {
+//                    Text("Register")
+//                        .foregroundColor(.white)
+//                        .padding()
+//                        .frame(maxWidth: .infinity)
+//                        .background(Color("signupButton"))
+//                        .cornerRadius(5)
+//                        .padding([.leading, .trailing], 16)
+//                        .padding(.top, 5)
+//                }
                 
                 Spacer()
                 Text("Forgot Password")
