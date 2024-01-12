@@ -14,3 +14,24 @@ Pages:
 
 * Settings Page:
 <img width="408" alt="image" src="https://github.com/dhave-dev13/freedgen_app/assets/81951340/8d7896c9-24f2-41a0-8d42-5d7bcb8cc8ea">
+
+Demo:
+
+https://github.com/dhave-dev13/freedgen_app/assets/81951340/c268e82d-0a58-48e6-aab0-0fa8aa6c47a0
+
+PS: For learning purposes only
+
+Learnings:
+* SWIFTUI
+* * struct - define classes
+  * ZStack - like Stack in flutter
+  * HStack - like Row widget in Flutter
+  * VStack - Column widget in flutter
+  * @State, @Binding - handling states
+  * Identifiable - when you want to use model for list with unique keys
+  * Modifiable - in flutter its like properties for Rows that has minAxis, children, CrossAxisAlignment, etc..
+  * datatype - defining variables data type in swift is via colon(:) i.e. var title: String
+  * Image - you can use either svg, png, jpg just upload in assets folder
+  * Icons - Inside Image but when using SF Symbols, should be Image(.SystemName("sun.fill"))
+ 
+  
