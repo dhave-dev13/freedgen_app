@@ -14,6 +14,10 @@
 		A375D95B2B50D5BF0079CF5B /* BottomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A375D95A2B50D5BF0079CF5B /* BottomNavigationBar.swift */; };
 		A375D95D2B50D9530079CF5B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A375D95C2B50D9530079CF5B /* Constants.swift */; };
 		A375D95F2B50D9EC0079CF5B /* ContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A375D95E2B50D9EC0079CF5B /* ContentsView.swift */; };
+		A375D9612B51206A0079CF5B /* LessonsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A375D9602B51206A0079CF5B /* LessonsPageView.swift */; };
+		A375D9632B5121150079CF5B /* AppBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A375D9622B5121150079CF5B /* AppBarView.swift */; };
+		A375D9652B512CA30079CF5B /* SettingsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A375D9642B512CA30079CF5B /* SettingsPageView.swift */; };
+		A375D9682B5139350079CF5B /* SettingsCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A375D9672B5139350079CF5B /* SettingsCardsView.swift */; };
 		A386C7D32B4F613900E7CD9E /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A386C7D22B4F613900E7CD9E /* HomePageView.swift */; };
 		A386C7D62B4F719F00E7CD9E /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A386C7D52B4F719F00E7CD9E /* Helpers.swift */; };
 		A386C7D92B4FC98F00E7CD9E /* CurrentDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A386C7D82B4FC98F00E7CD9E /* CurrentDateView.swift */; };
@@ -49,6 +53,10 @@
 		A375D95A2B50D5BF0079CF5B /* BottomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationBar.swift; sourceTree = "<group>"; };
 		A375D95C2B50D9530079CF5B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A375D95E2B50D9EC0079CF5B /* ContentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsView.swift; sourceTree = "<group>"; };
+		A375D9602B51206A0079CF5B /* LessonsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsPageView.swift; sourceTree = "<group>"; };
+		A375D9622B5121150079CF5B /* AppBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBarView.swift; sourceTree = "<group>"; };
+		A375D9642B512CA30079CF5B /* SettingsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPageView.swift; sourceTree = "<group>"; };
+		A375D9672B5139350079CF5B /* SettingsCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCardsView.swift; sourceTree = "<group>"; };
 		A386C7D22B4F613900E7CD9E /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 		A386C7D52B4F719F00E7CD9E /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		A386C7D82B4FC98F00E7CD9E /* CurrentDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDateView.swift; sourceTree = "<group>"; };
@@ -127,6 +135,8 @@
 			children = (
 				A386C7D22B4F613900E7CD9E /* HomePageView.swift */,
 				A375D95E2B50D9EC0079CF5B /* ContentsView.swift */,
+				A375D9602B51206A0079CF5B /* LessonsPageView.swift */,
+				A375D9642B512CA30079CF5B /* SettingsPageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,6 +164,8 @@
 				A386C7D82B4FC98F00E7CD9E /* CurrentDateView.swift */,
 				A386C7DA2B4FCCAC00E7CD9E /* CardModulesView.swift */,
 				A375D95A2B50D5BF0079CF5B /* BottomNavigationBar.swift */,
+				A375D9622B5121150079CF5B /* AppBarView.swift */,
+				A375D9672B5139350079CF5B /* SettingsCardsView.swift */,
 			);
 			path = GlobalWidgets;
 			sourceTree = "<group>";
@@ -293,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A386C7D92B4FC98F00E7CD9E /* CurrentDateView.swift in Sources */,
+				A375D9652B512CA30079CF5B /* SettingsPageView.swift in Sources */,
 				A386C7DD2B4FCD3800E7CD9E /* ModuleDetails.swift in Sources */,
 				A375D95F2B50D9EC0079CF5B /* ContentsView.swift in Sources */,
 				A327AD892B44F3200023050B /* LoginPageView.swift in Sources */,
@@ -300,8 +313,11 @@
 				A327AD872B44F3200023050B /* freedgen_app_iosApp.swift in Sources */,
 				A386C7DB2B4FCCAC00E7CD9E /* CardModulesView.swift in Sources */,
 				A375D95B2B50D5BF0079CF5B /* BottomNavigationBar.swift in Sources */,
+				A375D9682B5139350079CF5B /* SettingsCardsView.swift in Sources */,
+				A375D9632B5121150079CF5B /* AppBarView.swift in Sources */,
 				A386C7D62B4F719F00E7CD9E /* Helpers.swift in Sources */,
 				A375D95D2B50D9530079CF5B /* Constants.swift in Sources */,
+				A375D9612B51206A0079CF5B /* LessonsPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
